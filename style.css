@@ -1,0 +1,32 @@
+body{
+    background-color:hsl(218, 28%, 13%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+.header{
+    display: flex;
+}
+
+.header_info {
+    margin-left: 60%;
+    display: inline-flex;
+   
+}
+
+.header_info p{
+    margin-left: 4em;
+    font-weight: 400px;
+}
+
+.illustration-intro{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    margin: auto;
+}
+.attribution { font-size: 11px; text-align: center; }
+
+
+.attribution a { color: hsl(228, 45%, 44%); }
