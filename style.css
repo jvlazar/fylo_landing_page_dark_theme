@@ -1,32 +1,119 @@
-body{
-    background-color:hsl(218, 28%, 13%);
+body {
+    background-color: hsl(217, 28%, 15%);
     color: white;
     font-size: 14px;
-    font-weight: 700px;
+    font-weight: 400px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 85%;
+    margin: auto;
 }
 
-.header{
+.header {
     display: flex;
+    margin-top: 1em;
+}
+
+.header img {
+    height: 2em;
+    align-self: center;
 }
 
 .header_info {
-    margin-left: 60%;
-    display: inline-flex;
-   
-}
-
-.header_info p{
-    margin-left: 4em;
-    font-weight: 400px;
-}
-
-.illustration-intro{
-    width: 30%;
-    height: 30%;
     display: flex;
+    margin-left: 3em;
+}
+
+.header_info p {
+    margin-left: 1.6em;
+    font-weight: 400px;
+    font-size: 12px;
+}
+
+.illustration-intro {
+    width: 80%;
+    height: 80%;
     margin: auto;
 }
-.attribution { font-size: 11px; text-align: center; }
+
+.row {
+    line-height: 1.6em;
+    margin-top: 2%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#row1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+#row1 p {
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.intro {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 1.2em;
+
+}
+
+.get_started_button {
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 10%;
+    border-style: none;
+    width: 15em;
+    height: 2em;
+    margin: auto;
+    color: white;
+    margin-top: 1em;
+}
+
+#fylo_description {
+    text-align: start;
+}
+
+.comments {
+    text-align: start;
+}
+
+.get_started_button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.intro_header {
+    font-weight: 700;
+}
+
+.outer_link::before {
+    color: hsl(176, 68%, 64%);
+}
+
+.outer_link {
+    color: hsl(176, 68%, 64%);
+}
+
+ul {
+    list-style-type: none;
+    text-align: start;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
 
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width: 375px) {}
