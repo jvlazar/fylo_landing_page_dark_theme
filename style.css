@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(218, 28%, 13%) 77%, hsl(216, 53%, 9%) 10%) no-repeat;
+    background: linear-gradient(hsl(218, 28%, 13%) 77%, hsl(216, 53%, 9%) 33%) no-repeat;
 
     color: white;
     font-size: 14px;
@@ -46,15 +46,22 @@ body {
     height: 2em;
     align-self: center;
     margin-left: 1em;
+    margin-top: 0.5em;
+    
 }
 
 .header_info {
+    position: absolute;
+    right: 0;
     display: flex;
+    align-items: center;
     margin-left: 3em;
+    padding-right: 1em;
+   
 }
 
 .header_info p {
-
+  
     margin-left: 2em;
     font-weight: 400px;
     font-size: 12px;
