@@ -1,11 +1,14 @@
 body {
-    background-color: hsl(218, 28%, 13%);
+    background: linear-gradient(hsl(218, 28%, 13%) 77%, hsl(216, 53%, 9%) 10%) no-repeat;
+
     color: white;
     font-size: 14px;
     font-weight: 400px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-   
+    width: 100%;
+    margin: auto;
+
     /*
     background-image:url("images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
@@ -14,27 +17,35 @@ body {
     background-size: auto;
 */
 }
+
+
+
 .container {
     width: 85%;
     margin: auto;
-    position: relative;
-    
-   
+    margin-top: -80%;
+
 }
-.section1 {
-    background-color: hsl(217, 11%, 64%);
-   
+
+.wrapper {
+    background-color: hsl(217, 28%, 15%);
+    margin-top: -2em;
+    padding-top: 1em;
+    max-width: 100%;
 }
+
+
 .header {
-    background-color: hsl(217, 11%, 64%);
-    height:auto;
     display: flex;
-    margin-top: 1em;
+    margin: auto;
+    margin-top: 2em;
+    position: relative;
 }
 
 .header img {
     height: 2em;
     align-self: center;
+    margin-left: 1em;
 }
 
 .header_info {
@@ -43,16 +54,16 @@ body {
 }
 
 .header_info p {
-    margin-left: 1.6em;
+
+    margin-left: 2em;
     font-weight: 400px;
     font-size: 12px;
 }
 
-.curve_mobile{
-    position: absolute;
+.curve_mobile {
     width: 100%;
-    margin-top: 45%;
-    margin-left: -50%;
+    display: block;
+    margin-top: 50%;
     z-index: 0;
 }
 
@@ -63,7 +74,7 @@ body {
 }
 
 .row {
-    
+
     line-height: 1.6em;
     display: flex;
     margin: auto;
@@ -125,10 +136,11 @@ body {
     width: 5em;
 }
 
-#security_img{
+#security_img {
     height: 5em;
     width: 4em;
 }
+
 .outer_link::before {
     color: hsl(176, 68%, 64%);
 }
@@ -137,25 +149,63 @@ body {
     color: hsl(176, 68%, 64%);
 }
 
-.early_access{
+.section {
+    width: 100%;
+    height: 3em;
+
+}
+
+
+.early_access_container {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
     background-color: hsl(217, 28%, 15%);
     padding-bottom: 2em;
 }
 
-.email_input{
+.early_access_container p {
+    margin: 2em;
+}
+
+.email_input {
     width: 17em;
     height: 2em;
     border-radius: 1em;
     border-style: none;
-    text-align:start;
+    text-align: start;
     text-indent: 1em;
+}
+
+#row6 p {
+    display: flex;
+    margin-left: 1em;
+    text-align: left;
+    margin-right: 1em;
+
+}
+
+#row6 img {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: -1.5em;
+
+
 }
 
 ul {
     list-style-type: none;
     text-align: start;
+    margin-left: -3em;
 }
 
+li {
+    margin-top: 1em;
+}
+
+.contact {
+    margin-top: 3em;
+}
 
 
 .attribution {
