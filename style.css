@@ -221,10 +221,7 @@ body {
     margin-top: 1em;
 }
 
-.get_started_button:hover {
-    background-color: hsl(176, 68%, 64%);
-    width: 17em;
-}
+
 
 
 #row6 p {
@@ -274,6 +271,12 @@ li {
 .container{
     width: 80%;
    
+}
+
+.get_started_button:hover {
+    background-color: hsl(176, 68%, 64%);
+    max-width: 80%;
+    min-width: 50%;
 }
 
 .illustration-intro{
