@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(218, 28%, 13%) 81%, hsl(216, 53%, 9%) 33%) no-repeat;
+    background: linear-gradient(hsl(218, 28%, 13%) 79%, hsl(216, 53%, 9%) 33%) no-repeat;
 
     color: white;
     font-size: 14px;
@@ -133,6 +133,16 @@ body {
     margin: auto;
 }
 
+
+#row3 {
+    text-align: left;
+}
+
+.arrow_icon {
+    margin-left: 0.5em;
+}
+
+
 .outer_link::before {
     color: hsl(176, 68%, 64%);
 }
@@ -171,7 +181,6 @@ body {
     justify-items: center;
 
 }
-
 
 .grid_wrapper_odd_columns_testimonials .column2 {
     align-self: left;
@@ -243,6 +252,7 @@ ul {
     list-style-type: none;
     text-align: start;
     margin-left: -3em;
+    margin-top: 3em;
 }
 
 li {
@@ -256,8 +266,9 @@ li {
 .social_media_icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2em;
+    column-gap: 25%;
     margin: auto;
+
 }
 
 .social_media_icons img {
@@ -275,9 +286,17 @@ li {
 }
 
 
-@media (width >=500px) {
+#row6 .logo {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+
+@media (width >=750px) {
     body {
-        background: linear-gradient(hsl(218, 28%, 13%) 75%, hsl(216, 53%, 9%) 33%) no-repeat;
+        background: linear-gradient(hsl(218, 28%, 13%) 72%, hsl(216, 53%, 9%) 33%) no-repeat;
         color: white;
         font-size: 14px;
         font-weight: 400px;
@@ -345,6 +364,7 @@ li {
 
     }
 
+
     #row5 {
         display: inline-block;
         max-width: 70%;
@@ -396,6 +416,9 @@ li {
         background-color: hsl(176, 68%, 64%);
 
     }
+
+
+    #row6 .logo {}
 
 }
 
