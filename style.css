@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(218, 28%, 13%) 77%, hsl(216, 53%, 9%) 33%) no-repeat;
+    background: linear-gradient(hsl(218, 28%, 13%) 81%, hsl(216, 53%, 9%) 33%) no-repeat;
 
     color: white;
     font-size: 14px;
@@ -8,14 +8,6 @@ body {
     text-align: center;
     width: 100%;
     margin: auto;
-
-    /*
-    background-image:url("images/bg-curvy-mobile.svg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 9.5%;
-    background-size: auto;
-*/
 }
 
 
@@ -47,7 +39,7 @@ body {
     align-self: center;
     margin-left: 1em;
     margin-top: 0.5em;
-    
+
 }
 
 .header_info {
@@ -57,11 +49,11 @@ body {
     align-items: center;
     margin-left: 3em;
     padding-right: 1em;
-   
+
 }
 
 .header_info p {
-  
+
     margin-left: 2em;
     font-weight: 400px;
     font-size: 12px;
@@ -106,7 +98,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 1.2em;
-    
+
 }
 
 
@@ -122,7 +114,7 @@ body {
 .intro_header {
     font-weight: 700;
     margin-top: 1em;
-   
+
 }
 
 .icons {
@@ -135,8 +127,8 @@ body {
     height: 30%;
 }
 
-.illustration_stay_productive{
-    max-width:100%;
+.illustration_stay_productive {
+    max-width: 100%;
     min-width: 60%;
     margin: auto;
 }
@@ -149,21 +141,21 @@ body {
     color: hsl(176, 68%, 64%);
 }
 
-.comments > *{
-    background-color:hsl(219, 30%, 18%);
+.comments>* {
+    background-color: hsl(219, 30%, 18%);
     display: block;
     margin: 1em;
     padding: 1em;
     border-radius: 5%;
-    
+
 }
 
-.quotes_img{
+.quotes_img {
     width: 10%;
 }
 
 
-.grid_wrapper_odd_columns_testimonials{
+.grid_wrapper_odd_columns_testimonials {
     display: grid;
     grid-template-columns: 25% 75%;
     column-gap: none;
@@ -171,7 +163,7 @@ body {
     justify-items: center;
 }
 
-.profile_img{
+.profile_img {
     min-width: 25%;
     max-width: 70%;
     border-radius: 5em;
@@ -181,7 +173,7 @@ body {
 }
 
 
-.grid_wrapper_odd_columns_testimonials .column2{
+.grid_wrapper_odd_columns_testimonials .column2 {
     align-self: left;
     justify-self: left;
 }
@@ -199,10 +191,10 @@ body {
 }
 
 .email_input {
-    max-width: 80%;
+    max-width: 70%;
     min-width: 50%;
-    height: 2em;
-    border-radius: 1em;
+    height: 3em;
+    border-radius: 2em;
     border-style: none;
     text-align: start;
     text-indent: 1em;
@@ -211,17 +203,23 @@ body {
 
 .get_started_button {
     background-color: hsl(198, 60%, 50%);
-    border-radius: 1em;
+    border-radius: 2em;
     border-style: none;
-    max-width: 80%;
+    max-width: 70%;
     min-width: 50%;
-    height: 2em;
+    height: 3em;
     margin: auto;
     color: white;
     margin-top: 1em;
 }
 
+#row5 .intro_header {
+    margin-bottom: -1em;
+}
 
+#row4 .column2 p {
+    line-height: 1;
+}
 
 
 #row6 p {
@@ -255,6 +253,16 @@ li {
     margin-top: 3em;
 }
 
+.social_media_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    margin: auto;
+}
+
+.social_media_icons img {
+    width: 50%;
+}
 
 .attribution {
     font-size: 11px;
@@ -267,68 +275,133 @@ li {
 }
 
 
-@media (width >= 500px) {
-.container{
-    width: 80%;
-   
+@media (width >=500px) {
+    body {
+        background: linear-gradient(hsl(218, 28%, 13%) 75%, hsl(216, 53%, 9%) 33%) no-repeat;
+        color: white;
+        font-size: 14px;
+        font-weight: 400px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+
+    .illustration-intro {
+        max-width: 60%;
+    }
+
+    #row2 {
+        display: grid;
+        margin: auto;
+        margin-top: 2em;
+        justify-content: center;
+    }
+
+    .grid_wrapper {
+        display: grid;
+        margin: auto;
+        margin-top: 1em;
+        grid-template-columns: 50% 50%;
+        column-gap: 5em;
+        justify-content: center;
+    }
+
+    .grid_wrapper_odd_columns {
+        text-align: start;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+
+
+    .grid_wrapper_odd_columns_testimonials {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        column-gap: none;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .illustration_stay_productive {
+        max-width: 100%;
+        min-width: 60%;
+        margin-top: auto;
+        margin-left: -1em;
+
+    }
+
+    .comments {
+        display: flex;
+
+    }
+
+    #row5 {
+        display: inline-block;
+        max-width: 70%;
+        min-width: 50%;
+    }
+
+    .early_access_buttons_wrapper {
+        display: grid;
+        max-width: 100%;
+        min-width: 70%;
+        margin: auto;
+        grid-template-columns: 3fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email_input {
+        width: 100%;
+    }
+
+
+    .get_started_button {
+        max-width: 50%;
+        min-width: 30%;
+        margin: auto;
+        margin-top: 1em;
+
+    }
+
+    #row5 .get_started_button {
+        display: block;
+        max-width: 70%;
+        min-width: 60%;
+        min-height: 3em;
+        margin: auto;
+        margin-left: -25%;
+        margin-right: 50%;
+    }
+
+
+    .get_started_button:hover {
+        max-width: 50%;
+        min-width: 30%;
+        background-color: hsl(176, 68%, 64%);
+    }
+
+    #row5 .get_started_button:hover {
+        max-width: 70%;
+        background-color: hsl(176, 68%, 64%);
+
+    }
+
 }
 
-.get_started_button:hover {
-    background-color: hsl(176, 68%, 64%);
-    max-width: 80%;
-    min-width: 50%;
-}
-
-.illustration-intro{
-    max-width: 60%;
-}
-
-#row2{
-    display: grid;
-    margin: auto;
-    margin-top: 2em;
-    justify-content: center;
-}
-
-.grid_wrapper {
-    display: grid;
-    margin: auto;
-    margin-top: 1em;
-    grid-template-columns: 50% 50%;
-    column-gap: 5em;
-    justify-content: center;
-}
-
-.grid_wrapper_odd_columns{
-    text-align: start;
-    display: grid;
-    grid-template-columns: 45% 55%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-   
-}
-
-.grid_wrapper_odd_columns_testimonials{
-    display: grid;
-    grid-template-columns: 25% 25% 50%;
-    column-gap: none;
-    align-items: center;
-    justify-items: center;
-}
-
-.illustration_stay_productive{
-    max-width:100%;
-    min-width: 60%;
-    margin-top: auto;
-    margin-left: -1em;
-    
-}
-}
-
-@media only screen and (min-width: 1200px){
-    .body{
+@media only screen and (min-width: 1200px) {
+    .body {
         max-width: 80%;
     }
-    
+
 }
