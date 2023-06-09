@@ -278,16 +278,33 @@ li {
 }
 
 .social_media_icons {
-    display: inline-block;
+    display: block;
     margin: auto;
+}
 
-
+.social_media_icons button {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: white;
+    background-color: hsl(218, 28%, 13%);
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 2em;
 }
 
 .social_media_icons img {
-    width: 50%;
+    width: 30%;
+    height: 70%;
     padding: 0.5em;
 }
+
+.social_media_icons button:hover {
+
+    cursor: pointer;
+    border-color: hsl(176, 68%, 64%);
+}
+
 
 
 #row6 .logo {
@@ -297,11 +314,58 @@ li {
 
 }
 
+
+.facebook_button {
+    background-image: url("/icons/401-facebook.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook_button:hover {
+    background-image: url("/icons/401-facebook-active.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter_button {
+    background-image: url("/icons/407-twitter.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter_button:hover {
+    background-image: url("/icons/407-twitter-active.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.instagram_button {
+    background-image: url("/icons/403-instagram.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.instagram_button:hover {
+    background-image: url("/icons/403-instagram-active.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
 }
-
 
 .attribution a {
     color: hsl(228, 45%, 44%);
