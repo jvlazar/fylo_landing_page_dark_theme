@@ -316,28 +316,28 @@ li {
 
 
 .facebook_button {
-    background-image: url("/icons/401-facebook.png");
+    background-image: url("./icons/401-facebook.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .facebook_button:hover {
-    background-image: url("/icons/401-facebook-active.png");
+    background-image: url("./icons/401-facebook-active.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .twitter_button {
-    background-image: url("/icons/407-twitter.png");
+    background-image: url("./icons/407-twitter.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .twitter_button:hover {
-    background-image: url("/icons/407-twitter-active.png");
+    background-image: url("./icons/407-twitter-active.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ li {
 
 
 .instagram_button {
-    background-image: url("/icons/403-instagram.png");
+    background-image: url("./icons/403-instagram.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -353,7 +353,7 @@ li {
 }
 
 .instagram_button:hover {
-    background-image: url("/icons/403-instagram-active.png");
+    background-image: url("./icons/403-instagram-active.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
