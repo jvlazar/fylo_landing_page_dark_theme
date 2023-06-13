@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
+  <script src="index.js"></script>
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
 </head>
@@ -208,9 +208,11 @@
           questions, our support team would be happy to help you.
         </p>
         <div class="early_access_buttons_wrapper">
-          <input type="text" placeholder="email@example.com" class="email_input">
-          <button class="get_started_button">Get Started For Free</button>
+          <input type="text" placeholder="email@example.com" class="email_input" id="email_input">
+          <button class="get_started_button" onclick="validateEmail()">Get Started For Free</button>
+          <div id="error_message" class="error_message"></div>
         </div>
+       
       </div>
     </div>
 

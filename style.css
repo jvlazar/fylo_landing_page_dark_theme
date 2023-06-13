@@ -238,6 +238,12 @@ body {
     margin-top: 1em;
 }
 
+.error_message{
+    color: red;
+    display: block;
+    margin-top: 1em;
+}
+
 #row5 .intro_header {
     margin-bottom: -1em;
 }
@@ -373,7 +379,7 @@ li {
 
 @media (width >=750px) {
     body {
-        background: linear-gradient(hsl(218, 28%, 13%) 83%, hsl(216, 53%, 9%) 44%) no-repeat;
+        background: linear-gradient(hsl(218, 28%, 13%) 84%, hsl(216, 53%, 9%) 44%) no-repeat;
         color: white;
         font-size: 14px;
         font-weight: 400px;
@@ -490,7 +496,11 @@ li {
         background-color: hsl(176, 68%, 64%);
 
     }
-
+    .error_message{
+        display: flex;
+        margin-left: 5em;
+        margin-top: 1em;
+    }
 
 
     .about_info_even_columns_grid {
