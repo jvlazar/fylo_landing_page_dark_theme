@@ -4,12 +4,13 @@ function validateEmail(){
     if (email.includes("@")){
         let emailArray = email.split("@");
         if (emailArray[1].includes(".")){
-            message = "";
+            document.getElementById("error_message").style.visibility = "hidden";
         } else {
-            message = `Please enter a valid email addresss`;
+           
+            document.getElementById("error_message").style.visibility = "visible";
         }
     }
-        document.getElementById("error_message").innerHTML = message;
+        
     
     
 }
