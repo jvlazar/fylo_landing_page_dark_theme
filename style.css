@@ -430,6 +430,7 @@ li:hover {
         justify-content: center;
     }
 
+
     .grid_wrapper {
         display: grid;
         margin: auto;
@@ -449,7 +450,9 @@ li:hover {
 
     }
 
-
+    .quotes_img {
+        width: 5%;
+    }
 
     .grid_wrapper_odd_columns_testimonials {
         display: grid;
