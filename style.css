@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(218, 28%, 13%) 79%, hsl(216, 53%, 9%) 33%) no-repeat;
+    background: linear-gradient(hsl(218, 28%, 13%) 78%, hsl(216, 53%, 9%) 33%) no-repeat;
 
     color: white;
     font-size: 14px;
@@ -195,6 +195,8 @@ body {
     border-radius: 5em;
     align-items: center;
     justify-items: center;
+    float: right;
+    margin-right: 1em;
 
 }
 
@@ -238,10 +240,20 @@ body {
     margin-top: 1em;
 }
 
-.error_message{
-    color: red;
+.get_started_button::hover {
+    background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+.get_started_button::after {
+    background-color: hsl(198, 60%, 50%);
+}
+
+.error_message {
+    color: hsl(0, 100%, 63%);
     display: block;
     margin-top: 1em;
+    visibility: hidden;
 }
 
 #row5 .intro_header {
@@ -279,6 +291,14 @@ li {
     margin-top: 1em;
 }
 
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+
+
 .contact {
     margin-top: 3em;
 }
@@ -306,7 +326,6 @@ li {
 }
 
 .social_media_icons button:hover {
-
     cursor: pointer;
     border-color: hsl(176, 68%, 64%);
 }
@@ -497,7 +516,7 @@ li {
 
     }
 
-    .error_message{
+    .error_message {
         display: flex;
         margin-left: 5em;
         margin-top: 1em;
@@ -521,6 +540,7 @@ li {
 
     .social_media_icons {
         margin-top: 0;
+
     }
 
     ul {
