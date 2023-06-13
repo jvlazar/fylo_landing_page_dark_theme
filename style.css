@@ -398,7 +398,7 @@ li:hover {
 
 @media (width >=750px) {
     body {
-        background: linear-gradient(hsl(218, 28%, 13%) 80%, hsl(216, 53%, 9%) 20%) no-repeat;
+        background: linear-gradient(hsl(218, 28%, 13%) 81%, hsl(216, 53%, 9%) 19%) no-repeat;
         color: white;
         font-size: 14px;
         font-weight: 400px;
